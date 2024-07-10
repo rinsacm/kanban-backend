@@ -15,7 +15,7 @@ app.use(express.json());
 //   credentials: true,
 // };
 let corsOptions = {
-  origin: "http://localhost:3000",
+  origin: "*",
   crossorigin: true,
   credentials: true,
 };

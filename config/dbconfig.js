@@ -1,6 +1,7 @@
 const { MongoClient } = require("mongodb");
-const mongodb_url = "mongodb://localhost:27017";
-
+const mongodb_url =
+  "mongodb+srv://rinsacm:xKNzSeVRBiE6quwW@cluster0.h6ny9xy.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0";
+console.log(process.env);
 const state = {
   db: null,
 };
