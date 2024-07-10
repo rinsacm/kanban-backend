@@ -16,8 +16,7 @@ app.use(express.json());
 // };
 let corsOptions = {
   origin: "*",
-  methods: ["GET", "POST"],
-  crossorigin: true,
+  crossOrigin: true,
   credentials: true,
 };
 app.use(cors(corsOptions));
